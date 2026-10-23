@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+  int id,password;
+printf("enter user id:");
+scanf("%d",&id);
+if(id!=101){
+printf("user not found");
+}
+else{
+printf("enter password:");
+scanf("%d",&password);
+if (password==4321)
+  printf("login successful");
+else
+  printf("incorrect password");
+}
+return 0;
+}
